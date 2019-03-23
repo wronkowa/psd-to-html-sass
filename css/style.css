@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 html {
@@ -407,5 +405,120 @@ section.relax button:after {
 section.relax button:hover:after {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+section.latest-project {
+  margin: 80px 0 80px 230px;
+  position: relative;
+  overflow: hidden;
+}
+
+section.latest-project h1 {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+section.latest-project h2 {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+section.latest-project h3 {
+  margin-top: 80px;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  text-align: left;
+}
+
+section.latest-project p {
+  width: 50%;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  line-height: 150%;
+  text-align: left;
+}
+
+section.latest-project article.project {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+section.latest-project article.project i {
+  display: block;
+  width: 68px;
+  height: 68px;
+  font-size: 35px;
+  line-height: 68px;
+  border: 3px solid black;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+}
+
+section.latest-project article.project div.textProj {
+  text-align: left;
+  padding: 0 10px;
+}
+
+section.latest-project article.project div.textProj h4 {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+}
+
+section.latest-project article.project p {
+  width: 100%;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+
+section.latest-project a {
+  display: inline-block;
+  color: #7cc576;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+  text-decoration: none;
+  padding: 20px 0 0;
+}
+
+section.latest-project a i {
+  font-size: 16px;
+}
+
+section.latest-project img {
+  position: absolute;
+  width: 80%;
+  top: 35%;
+  right: 0;
+  -webkit-transform: translateX(250px);
+          transform: translateX(250px);
 }
 /*# sourceMappingURL=style.css.map */
