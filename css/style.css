@@ -171,16 +171,20 @@ header button {
   margin-top: 350px;
   width: 200px;
   height: 60px;
-  background-color: #ffffff;
+  background-color: #7cc576;
   border: 1px solid #222222;
   border-radius: 30px;
-  color: #222222;
+  color: white;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -0.37px;
   font-size: 16px;
   cursor: pointer;
   overflow: hidden;
+}
+
+header button:hover {
+  color: #222222;
 }
 
 header button:after {
@@ -191,7 +195,7 @@ header button:after {
   width: 100%;
   height: 100%;
   z-index: -2;
-  background-color: #7cc576;
+  background-color: white;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition: .3s;
@@ -260,5 +264,148 @@ section.services .servicesBox .service p {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.35px;
+}
+
+section.relax {
+  position: relative;
+  height: 550px;
+  background-color: #e9e9e9;
+  overflow: hidden;
+}
+
+section.relax div.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 300px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+section.relax div.background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .75;
+  z-index: 1;
+}
+
+section.relax div.background img {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section.relax div.background i {
+  position: relative;
+  line-height: 550px;
+  -webkit-transform: translateX(70%);
+          transform: translateX(70%);
+}
+
+section.relax h1 {
+  position: absolute;
+  z-index: 2;
+  padding: 100px;
+  top: 0;
+  left: 30%;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  color: white;
+}
+
+section.relax h1 span {
+  color: #7cc576;
+}
+
+section.relax p {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  width: 60%;
+  line-height: 170%;
+  position: absolute;
+  z-index: 2;
+  padding: 230px 100px;
+  top: 0;
+  left: 30%;
+}
+
+section.relax ul {
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+  padding: 300px 100px;
+  top: 0;
+  left: 30%;
+  color: #cccccc;
+}
+
+section.relax ul li {
+  padding: 10px;
+}
+
+section.relax ul li i {
+  margin-right: 10px;
+}
+
+section.relax button {
+  background-color: #7cc576;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  z-index: 2;
+  margin: 450px 100px;
+  top: 0;
+  left: 30%;
+  text-transform: uppercase;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 44.21px;
+  letter-spacing: -0.37px;
+}
+
+section.relax button:hover {
+  color: black;
+}
+
+section.relax button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: white;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section.relax button:hover:after {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 /*# sourceMappingURL=style.css.map */
