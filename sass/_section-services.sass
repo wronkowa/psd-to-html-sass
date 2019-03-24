@@ -2,18 +2,10 @@ section.services
   width: 80%
   text-align: center
   margin: 100px auto
-  h1 
-    color: #222222
-    font-size: 40px
-    font-weight: 700
-    line-height: 75px
-    text-transform: uppercase
-    letter-spacing: -2px
+  h1
+    +section-title()
   h2 
-    color: #777777
-    font-size: 20px
-    font-weight: 400  
-    letter-spacing: -0.5px
+    +section-title2()
     margin-bottom: 90px
   .servicesBox
     +box-flex(row, space-between, center)

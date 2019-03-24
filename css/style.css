@@ -213,11 +213,13 @@ section.services {
 
 section.services h1 {
   color: #222222;
+  font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
-  line-height: 75px;
+  line-height: 36px;
   text-transform: uppercase;
   letter-spacing: -2px;
+  text-align: center;
 }
 
 section.services h2 {
@@ -225,6 +227,8 @@ section.services h2 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.5px;
+  line-height: 300%;
+  text-align: center;
   margin-bottom: 90px;
 }
 
@@ -408,15 +412,17 @@ section.relax button:hover:after {
 }
 
 section.latest-project {
-  margin: 80px 0 80px 230px;
+  padding: 80px 230px 80px 230px;
   position: relative;
   overflow: hidden;
 }
 
 section.latest-project h1 {
   color: #222222;
+  font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
+  line-height: 36px;
   text-transform: uppercase;
   letter-spacing: -2px;
   text-align: center;
@@ -427,7 +433,7 @@ section.latest-project h2 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.5px;
-  padding: 10px 0 0;
+  line-height: 300%;
   text-align: center;
 }
 
@@ -515,10 +521,101 @@ section.latest-project a i {
 
 section.latest-project img {
   position: absolute;
-  width: 80%;
+  width: 60%;
   top: 35%;
   right: 0;
-  -webkit-transform: translateX(250px);
-          transform: translateX(250px);
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px);
+  z-index: 2;
+}
+
+section.value {
+  margin: 0 230px 80px 230px;
+}
+
+section.value h1 {
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+section.value h2 {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 300%;
+  text-align: center;
+}
+
+section.value div.valuesBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  position: relative;
+}
+
+section.value div.valuesBox.valuesBox::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 170px;
+  background-color: #777777;
+  top: 35%;
+  left: 22.5%;
+}
+
+section.value div.valuesBox.valuesBox::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 170px;
+  background-color: #777777;
+  top: 35%;
+  right: 22.5%;
+}
+
+section.value div.valuesBox article {
+  width: 30%;
+}
+
+section.value div.valuesBox article i {
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+  border: 3px solid #777777;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  line-height: 85px;
+  font-size: 40px;
+  color: gray;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+section.value div.valuesBox article div.textBox h3 {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+}
+
+section.value div.valuesBox article div.textBox p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+  line-height: 150%;
 }
 /*# sourceMappingURL=style.css.map */
