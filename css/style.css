@@ -666,4 +666,38 @@ section.our-client article.client-opinion p {
 section.our-client article.client-opinion:nth-child(odd) {
   margin-left: 50%;
 }
+
+section.contact {
+  background-color: #7cc576;
+  text-align: center;
+  padding: 70px 0 70px;
+}
+
+section.contact h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+section.contact button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 41px;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  margin-top: 30px;
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 15px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section.contact button:hover {
+  background-color: white;
+  color: #7cc576;
+}
 /*# sourceMappingURL=style.css.map */
