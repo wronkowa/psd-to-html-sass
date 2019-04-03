@@ -763,4 +763,36 @@ section.top-footer article .container i {
   font-size: 24px;
   padding-right: 20px;
 }
+
+.buttom-footer {
+  padding: 40px 230px;
+  position: relative;
+}
+
+.buttom-footer p {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.buttom-footer .icon-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.buttom-footer .icon-box a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #222222;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 10px;
+}
 /*# sourceMappingURL=style.css.map */
