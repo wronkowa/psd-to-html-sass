@@ -794,5 +794,16 @@ section.top-footer article .container i {
   text-align: center;
   border-radius: 50%;
   margin: 0 10px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.buttom-footer .icon-box a:hover {
+  background-color: #ffffff;
+  color: #222222;
+  border: 2px solid #222222;
 }
 /*# sourceMappingURL=style.css.map */
